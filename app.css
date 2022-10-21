@@ -22,7 +22,6 @@ div {
     grid-template-columns: 1fr 2.8fr 1fr;
     grid-template-rows: 1fr 5fr;
     /* height: 100%; */
-    margin-top: ;
 }
 
 .sidebar {
@@ -66,11 +65,10 @@ div {
     grid-template-rows: repeat(9, 1fr);
     align-items: center;
     gap: var(--nav-element-gap);
-    padding-left: 15px;
+    padding-left: 17px;
 }
 
 .logo {
-    padding-left: 3px;
     grid-column-start: 1;
     grid-column-end: 2;
     align-self: center;
@@ -81,4 +79,10 @@ div {
     grid-column-start: 2;
     grid-column-end: 3;
     align-self: center;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+    padding: none;
 }
