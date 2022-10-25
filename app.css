@@ -329,3 +329,8 @@ main {
 .card>p a {
     color: var(--global-txt-col);
 }
+
+.header-buttons a {
+    text-decoration: none;
+    color: var(--global-txt-col);
+}
